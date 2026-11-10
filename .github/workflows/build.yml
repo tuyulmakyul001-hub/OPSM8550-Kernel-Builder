@@ -27,9 +27,9 @@ on:
         description: Manual only; branch must exist in the selected source (LineageOS uses lineage-*, crDroid uses 17.0/16.0). Prefer automatic mode.
         required: true
         type: choice
-        default: "17.0"
+        default: "lineage-24.0"
         options:
-          - "17.0"
+          - "lineage-24.0"
       clang_choice:
         description: Compiler preset; auto is safest for normal builds
         required: true
